@@ -42,21 +42,6 @@ fn main() {
     container.push(State::DEAD);
     container.push(State::DEAD);
     container.push(State::ALIVE);
-    container.push(State::DEAD);
-    container.push(State::ALIVE);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::ALIVE);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::DEAD);
-    container.push(State::ALIVE);
-    container.push(State::DEAD);
-    container.push(State::ALIVE);
 
     let running: Result<Flag, &'static str> = container.run(MAX);
     match running {
