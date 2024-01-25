@@ -51,7 +51,12 @@ You can now start the simulation with `WCAStorage::run(n-step) -> Result<Flag, &
 ```rust
 container.run(20) //for 20 steps.
 ```
+
 ![example of automata following rules 30.](assets/ex.png)
+
+### References
+- [Concept](https://mathworld.wolfram.com/ElementaryCellularAutomaton.html)
+- [Bonus](https://www.youtube.com/watch?v=Ggxt06qSAe4)
 
 ### Licence
 This project is licensed under the MIT License - see the LICENSE file for details.
